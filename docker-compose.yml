@@ -1,0 +1,7 @@
+version: '3.1'
+
+services:
+  adminer:
+    image: adminer
+    ports:
+      - "9180:8080"
